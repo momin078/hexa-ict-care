@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 110" width="460" height="110">
+  <defs>
+    <!-- Background Gradient for Icon -->
+    <linearGradient id="fullBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Hexagon Border Gradient -->
+    <linearGradient id="fullBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="50%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+
+    <!-- Inner Glow Gradient -->
+    <linearGradient id="fullInnerGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Tech Red Gradient -->
+    <linearGradient id="fullTechRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+
+    <!-- Text Red Gradient -->
+    <linearGradient id="textRedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+
+    <!-- Filter for subtle shadow -->
+    <filter id="fullShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#dc2626" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- ICON SECTION (Center at x=55, y=55) -->
+  <g transform="translate(0, 0)">
+    <!-- Outer Glow Polygon -->
+    <polygon points="55,14 92.5,35.5 92.5,74.5 55,96 17.5,74.5 17.5,35.5"
+             fill="none" stroke="url(#fullBorderGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.35" filter="url(#fullShadow)" />
+
+    <!-- Base Hexagon -->
+    <polygon points="55,16 90.5,36.5 90.5,73.5 55,94 19.5,73.5 19.5,36.5"
+             fill="url(#fullBgGrad)" stroke="url(#fullBorderGrad)" stroke-width="3.5" stroke-linejoin="round" />
+
+    <!-- Glossy Highlight -->
+    <path d="M 55,18 L 88.5,37.5 L 88.5,55 C 88.5,55 72,44 55,44 C 38,44 21.5,55 21.5,55 L 21.5,37.5 Z"
+          fill="url(#fullInnerGlow)" />
+
+    <!-- Central 'H' & Tech Code `< / >` -->
+    <g transform="translate(55, 55)">
+      <!-- Left Bracket `<` -->
+      <polyline points="-12,-16 -21,0 -12,16" fill="none" stroke="url(#fullTechRed)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <!-- Right Bracket `>` -->
+      <polyline points="12,-16 21,0 12,16" fill="none" stroke="url(#fullTechRed)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <!-- Cross Connector Bar -->
+      <line x1="-14" y1="0" x2="14" y2="0" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+      
+      <!-- Center Glowing Node -->
+      <circle cx="0" cy="0" r="4" fill="#dc2626" stroke="#ffffff" stroke-width="1.8" />
+      
+      <!-- Small Slash Accent -->
+      <line x1="-2.5" y1="-10" x2="2.5" y2="10" stroke="#fecaca" stroke-width="2" stroke-linecap="round" opacity="0.9" />
+    </g>
+
+    <!-- Bottom Mini Badge -->
+    <rect x="41" y="82" width="28" height="6.5" rx="3.25" fill="#dc2626" />
+    <text x="55" y="87" font-family="'Poppins', sans-serif" font-size="4.5" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="0.8">ICT</text>
+  </g>
+
+  <!-- TYPOGRAPHY / TEXT SECTION -->
+  <g transform="translate(120, 0)">
+    <!-- Primary Brand Name: HEXA ICT কেয়ার -->
+    <g transform="translate(0, 56)">
+      <!-- HEXA in English -->
+      <text x="0" y="0" font-family="'Poppins', sans-serif" font-size="38" font-weight="800" fill="#0f172a" letter-spacing="1.5">HEXA</text>
+      
+      <!-- ICT কেয়ার in Bangla -->
+      <text x="124" y="-1" font-family="'Hind Siliguri', 'Segoe UI', sans-serif" font-size="34" font-weight="700" fill="url(#textRedGrad)">ICT কেয়ার</text>
+    </g>
+
+    <!-- Subtitle / Tagline: HSC ACADEMIC CARE & SPECIAL BATCH -->
+    <g transform="translate(2, 86)">
+      <rect x="0" y="-14" width="6" height="6" rx="1.5" fill="#dc2626" />
+      <text x="14" y="-8" font-family="'Poppins', sans-serif" font-size="12" font-weight="600" fill="#64748b" letter-spacing="2.5">HSC ACADEMIC CARE</text>
+      <text x="180" y="-8" font-family="'Hind Siliguri', sans-serif" font-size="12" font-weight="600" fill="#94a3b8">|</text>
+      <text x="194" y="-8" font-family="'Hind Siliguri', sans-serif" font-size="12" font-weight="600" fill="#ef4444">একাদশ ও দ্বাদশ শ্রেণী</text>
+    </g>
+
+    <!-- Subtle Decorative Tech Line -->
+    <line x1="0" y1="94" x2="310" y2="94" stroke="#e2e8f0" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="0" y1="94" x2="60" y2="94" stroke="#dc2626" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>

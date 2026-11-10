@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexa ICT কেয়ার | HSC ICT Coaching | Mokhlesur Rahman Momin</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo-icon.svg">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fef2f2',
+                            100: '#fee2e2',
+                            500: '#ef4444',
+                            600: '#dc2626',
+                            700: '#b91c1c',
+                            800: '#991b1b',
+                            900: '#7f1d1d',
+                        }
+                    },
+                    fontFamily: {
+                        bangla: ['"Hind Siliguri"', 'sans-serif'],
+                        english: ['"Poppins"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts: Hind Siliguri for Bangla & Poppins for English -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+        .font-en {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, rgba(220, 38, 38, 0.15), transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(17, 24, 39, 0.08), transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-red-500 selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gradient-to-r from-red-700 via-red-600 to-red-800 text-white text-sm py-2 px-4 shadow">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+            <div class="flex items-center gap-2 font-medium">
+                <span class="inline-flex items-center justify-center bg-white text-red-600 text-xs px-2 py-0.5 rounded-full font-bold animate-pulse font-en">HEXA</span>
+                <span>Hexa ICT কেয়ার — একাদশ ও দ্বাদশ শ্রেণীর নতুন স্পেশাল ব্যাচে ভর্তি চলছে!</span>
+            </div>
+            <div class="flex items-center gap-4 text-xs sm:text-sm">
+                <a href="tel:01568333884" class="hover:underline flex items-center gap-1 font-en font-semibold">
+                    <i class="fa-solid fa-phone"></i> 01568333884
+                </a>
+                <span class="hidden md:inline">|</span>
+                <span class="hidden md:flex items-center gap-1">
+                    <i class="fa-solid fa-location-dot"></i> সফিপুর, গাজীপুর
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo / Brand -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <img src="assets/logo-icon.svg" alt="Hexa ICT কেয়ার লোগো" class="w-12 h-12 group-hover:rotate-6 group-hover:scale-105 transition-all duration-300 drop-shadow">
+                    <div>
+                        <span class="block font-bold text-xl text-slate-900 group-hover:text-red-600 transition-colors tracking-tight font-en">Hexa <span class="text-red-600 font-bangla">ICT কেয়ার</span></span>
+                        <span class="text-xs text-slate-500 block font-medium">HSC ICT Academic Care</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <nav class="hidden md:flex items-center gap-8 font-medium text-slate-700">
+                    <a href="#home" class="hover:text-red-600 transition-colors">হোম</a>
+                    <a href="#features" class="hover:text-red-600 transition-colors">কেন পড়বেন?</a>
+                    <a href="#syllabus" class="hover:text-red-600 transition-colors">সিলেবাস</a>
+                    <a href="#instructor" class="hover:text-red-600 transition-colors">শিক্ষক পরিচিতি</a>
+                    <a href="#contact" class="hover:text-red-600 transition-colors">যোগাযোগ</a>
+                </nav>
+
+                <!-- Right Action Buttons -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="https://wa.me/8801568333884?text=Hello%20Sir,%20HSC%20ICT%20batch%20er%20bapere%20jante%20chai" target="_blank" class="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all shadow-sm hover:shadow">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>হোয়াটসঅ্যাপ</span>
+                    </a>
+                    <a href="tel:01568333884" class="flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span>কল করুন</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobileMenuBtn" class="text-slate-700 hover:text-red-600 p-2 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-slate-200 px-6 py-4 space-y-3 font-medium shadow-xl">
+            <a href="#home" class="block text-slate-700 hover:text-red-600 py-1">হোম</a>
+            <a href="#features" class="block text-slate-700 hover:text-red-600 py-1">কেন পড়বেন?</a>
+            <a href="#syllabus" class="block text-slate-700 hover:text-red-600 py-1">সিলেবাস</a>
+            <a href="#instructor" class="block text-slate-700 hover:text-red-600 py-1">শিক্ষক পরিচিতি</a>
+            <a href="#contact" class="block text-slate-700 hover:text-red-600 py-1">যোগাযোগ ও ভর্তি</a>
+            <div class="pt-3 border-t border-slate-100 flex flex-col gap-2">
+                <a href="tel:01568333884" class="w-full text-center bg-red-600 text-white py-2 rounded-lg font-semibold">
+                    <i class="fa-solid fa-phone mr-1"></i> কল করুন: 01568333884
+                </a>
+                <a href="https://wa.me/8801568333884" target="_blank" class="w-full text-center bg-emerald-600 text-white py-2 rounded-lg font-semibold">
+                    <i class="fa-brands fa-whatsapp mr-1"></i> হোয়াটসঅ্যাপে মেসেজ দিন
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative overflow-hidden pt-10 pb-16 lg:py-24 hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-100 border border-red-200 text-red-700 text-sm font-semibold">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>একাদশ ও দ্বাদশ শ্রেণীর শিক্ষার্থীদের জন্য বিশেষ সুযোগ</span>
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
+                        ICT বিষয়ে <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800">A+ পাওয়ার</span> পূর্ণাঙ্গ প্রস্তুতি
+                    </h1>
+
+                    <p class="text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        মুখস্থ নয়, বাস্তব উদাহরণ ও প্র্যাক্টিক্যাল কোডিংয়ের মাধ্যমে সহজেই আয়ত্ত করো ICT সিলেবাস। সি প্রোগ্রামিং, এইচটিএমএল ও সংখ্যা পদ্ধতির মতো কঠিন টপিকগুলো সহজভাবে শিখুন অভিজ্ঞ শিক্ষকের সাথে।
+                    </p>
+
+                    <!-- Instructor Brief Card in Hero -->
+                    <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 flex flex-col sm:flex-row items-center gap-4 max-w-lg mx-auto lg:mx-0">
+                        <div class="w-14 h-14 rounded-full bg-red-600 text-white flex items-center justify-center text-xl font-bold font-en shadow">
+                            MRM
+                        </div>
+                        <div class="text-center sm:text-left">
+                            <h3 class="font-bold text-lg text-slate-800">মোখলেছুর রহমান মোমিন</h3>
+                            <p class="text-sm text-red-600 font-semibold font-en">BSc in CSE, IUBAT</p>
+                            <p class="text-xs text-slate-500">ইনস্ট্রাক্টর ও আইসিটি শিক্ষক</p>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#contact" class="px-7 py-3.5 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold rounded-xl shadow-lg shadow-red-500/25 transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+                            <span>ভর্তি নিশ্চিত করুন</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="tel:01568333884" class="px-7 py-3.5 bg-white hover:bg-slate-50 text-slate-800 font-semibold rounded-xl border border-slate-200 shadow-sm transition-all flex items-center gap-2">
+                            <i class="fa-solid fa-phone text-red-600"></i>
+                            <span class="font-en">01568333884</span>
+                        </a>
+                    </div>
+
+                    <!-- Quick Highlights -->
+                    <div class="pt-4 grid grid-cols-3 gap-4 border-t border-slate-200/60 max-w-md mx-auto lg:mx-0">
+                        <div class="text-center lg:text-left">
+                            <div class="font-bold text-2xl text-slate-900 font-en">100%</div>
+                            <div class="text-xs text-slate-500">প্র্যাক্টিক্যাল ল্যাব</div>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <div class="font-bold text-2xl text-slate-900 font-en">A+</div>
+                            <div class="text-xs text-slate-500">টার্গেট প্রস্তুতি</div>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <div class="font-bold text-2xl text-slate-900 font-en">24/7</div>
+                            <div class="text-xs text-slate-500">ডাউট সলভিং</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual / Banner Poster -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative group max-w-sm sm:max-w-md w-full">
+                        <div class="absolute -inset-1.5 bg-gradient-to-r from-red-600 to-rose-500 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
+                        <div class="relative bg-white p-3 rounded-2xl shadow-2xl border border-slate-100 overflow-hidden">
+                            <img src="assets/banner.jpg" alt="ICT পড়ানো হয় - মোখলেছুর রহমান মোমিন" class="w-full h-auto rounded-xl object-cover transform group-hover:scale-[1.02] transition duration-300">
+                            
+                            <div class="mt-3 p-3 bg-slate-900 rounded-xl text-white flex items-center justify-between text-xs">
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+                                    <span>ব্যাচে আসন সংখ্যা সীমিত</span>
+                                </div>
+                                <span class="text-red-400 font-semibold">সফিপুর, গাজীপুর</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Features -->
+    <section id="features" class="py-20 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-red-600 font-semibold text-sm tracking-wide uppercase">কেন আমাদের কাছে পড়বেন?</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-2">আমাদের বিশেষ পাঠদান পদ্ধতি</h2>
+                <p class="text-slate-600 mt-3 text-base">শুধু মুখস্থ করিয়ে নয়, আমরা প্রতিটি বিষয় হাতে-কলমে এবং প্রোগ্রামিং কোডিং সরাসরি প্র্যাকটিস করিয়ে শিখাই।</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-red-300 hover:shadow-xl hover:shadow-red-500/5 transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-red-100 text-red-600 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">প্রোগ্রামিং ও ল্যাব ক্লাস</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">অধ্যায় ৪ (HTML) এবং অধ্যায় ৫ (C Programming) সরাসরি কম্পিউটারে লাইভ কোডিং করে শেখানো হয়।</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-red-300 hover:shadow-xl hover:shadow-red-500/5 transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-red-100 text-red-600 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">সংখ্যা পদ্ধতির সহজ শর্টকাট</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">বাইনারি, অকটাল, হেক্সাডেসিমেল রূপান্তর ও লজিক গেটের কঠিন জটিল বিষয়গুলো সহজ টেকনিকে বোঝানো হয়।</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-red-300 hover:shadow-xl hover:shadow-red-500/5 transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-red-100 text-red-600 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">অধ্যায়ভিত্তিক হ্যান্ডনোট ও শীট</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">বোর্ড পরীক্ষার জন্য সবচেয়ে উপযোগী এক্সক্লুসিভ হ্যান্ডনোট ও গুরুত্বপূর্ণ সৃজনশীল প্রশ্ন-উত্তর সরবরাহ করা হয়।</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-red-300 hover:shadow-xl hover:shadow-red-500/5 transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-red-100 text-red-600 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-file-signature"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">নিয়মিত পরীক্ষা ও মডেল টেস্ট</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">প্রতিটি অধ্যায় শেষে অধ্যায়ভিত্তিক পরীক্ষা ও বোর্ড স্ট্যান্ডার্ড পূর্ণাঙ্গ মডেল টেস্ট গ্রহণ করা হয়।</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-red-300 hover:shadow-xl hover:shadow-red-500/5 transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-red-100 text-red-600 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">দুর্বল শিক্ষার্থীদের বিশেষ যত্ন</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">যাদের সাইন্স বা কম্পিউটার ব্যাকগ্রাউন্ড নেই তাদের জন্য রয়েছে অতিরিক্ত রিক্যাপ ক্লাস ও ওয়ান-টু-ওয়ান গাইডেন্স।</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-red-300 hover:shadow-xl hover:shadow-red-500/5 transition duration-300">
+                    <div class="w-14 h-14 rounded-xl bg-red-100 text-red-600 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">CSE গ্র্যাজুয়েটের সরাসরি ক্লাস</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">কম্পিউটার সায়েন্সের গ্র্যাজুয়েটের কাছ থেকে লজিক্যাল ও ইন্ডাস্ট্রিয়াল কনসেপ্টে সঠিক শিক্ষার নিশ্চয়তা।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Syllabus Section -->
+    <section id="syllabus" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-red-600 font-semibold text-sm tracking-wide uppercase">সম্পূর্ণ সিলেবাস কভারেজ</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-2">HSC ICT বইয়ের ৬টি অধ্যায়</h2>
+                <p class="text-slate-600 mt-3">একাদশ ও দ্বাদশ শ্রেণীর সম্পূর্ণ সিলেবাস পুঙ্খানুপুঙ্খভাবে রিভিশন ও প্র্যাকটিস সহ শেষ করা হবে।</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Chapter 1 -->
+                <div class="bg-white rounded-xl p-6 border border-slate-200 shadow-sm hover:border-red-400 transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-red-50 text-red-600 text-xs font-bold px-3 py-1 rounded-full">১ম অধ্যায়</span>
+                        <i class="fa-solid fa-globe text-slate-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2">তথ্য ও যোগাযোগ প্রযুক্তি</h3>
+                    <p class="text-slate-500 text-sm mb-3">বিশ্ব ও বাংলাদেশ প্রেক্ষিত, ভার্চুয়াল রিয়েলিটি, কৃত্রিম বুদ্ধিমত্তা, রোবোটিক্স, বায়োমেট্রিক্স ও সাইবার নিরাপত্তা।</p>
+                    <span class="text-xs text-red-600 font-semibold">সৃজনশীল ও MCQ স্পেশাল টেকনিক</span>
+                </div>
+
+                <!-- Chapter 2 -->
+                <div class="bg-white rounded-xl p-6 border border-slate-200 shadow-sm hover:border-red-400 transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-red-50 text-red-600 text-xs font-bold px-3 py-1 rounded-full">২য় অধ্যায়</span>
+                        <i class="fa-solid fa-network-wired text-slate-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2">কমিউনিকেশন সিস্টেম ও নেটওয়ার্কিং</h3>
+                    <p class="text-slate-500 text-sm mb-3">ডাটা ট্রান্সমিশন মোড, অপটিক্যাল ফাইবার, ওয়্যারলেস যোগাযোগ, ব্লুটুথ, ওয়াইফাই এবং নেটওয়ার্ক টপোলজি।</p>
+                    <span class="text-xs text-red-600 font-semibold">টপোলজি ও বাস্তব প্রয়োগ ভিত্তিক ক্লাস</span>
+                </div>
+
+                <!-- Chapter 3 -->
+                <div class="bg-white rounded-xl p-6 border-2 border-red-500/80 shadow-md relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-red-600 text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg">সবচেয়ে গুরুত্বপূর্ণ</div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-red-50 text-red-600 text-xs font-bold px-3 py-1 rounded-full">৩য় অধ্যায়</span>
+                        <i class="fa-solid fa-microchip text-red-500"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2">সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস</h3>
+                    <p class="text-slate-500 text-sm mb-3">বাইনারি রূপান্তর, ২-এর পরিপূরক, বুলিয়ান অ্যালজেব্রা, লজিক গেট, এডার, এনকোডার ও ডিকোডার।</p>
+                    <span class="text-xs text-red-600 font-semibold">গাণিতিক সমাধান ও লজিক গেট সিমুলেশন</span>
+                </div>
+
+                <!-- Chapter 4 -->
+                <div class="bg-white rounded-xl p-6 border border-slate-200 shadow-sm hover:border-red-400 transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-red-50 text-red-600 text-xs font-bold px-3 py-1 rounded-full">৪র্থ অধ্যায়</span>
+                        <i class="fa-solid fa-code text-slate-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2">ওয়েব ডিজাইন পরিচিতি ও HTML</h3>
+                    <p class="text-slate-500 text-sm mb-3">ওয়েবসাইটের কাঠামো, HTML ট্যাগ, টেবিল তৈরি, ইমেজ ও লিংক যুক্ত করা এবং ওয়েবসাইট পাবলিশিং।</p>
+                    <span class="text-xs text-red-600 font-semibold">হাতে-কলমে ওয়েব পেজ ডিজাইন ল্যাব</span>
+                </div>
+
+                <!-- Chapter 5 -->
+                <div class="bg-white rounded-xl p-6 border-2 border-red-500/80 shadow-md relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-red-600 text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg">প্র্যাক্টিক্যাল ল্যাব</div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-red-50 text-red-600 text-xs font-bold px-3 py-1 rounded-full">৫ম অধ্যায়</span>
+                        <i class="fa-solid fa-terminal text-red-500"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2">প্রোগ্রামিং ভাষা (C Programming)</h3>
+                    <p class="text-slate-500 text-sm mb-3">অ্যালগরিদম, ফ্লোচার্ট, ভেরিয়েবল, লুপ, কন্ডিশনাল স্টেটমেন্ট, ফাংশন ও অ্যারে সমাধান।</p>
+                    <span class="text-xs text-red-600 font-semibold">সি প্রোগ্রামিং সরাসরি কম্পিউটারে রান করে শেখা</span>
+                </div>
+
+                <!-- Chapter 6 -->
+                <div class="bg-white rounded-xl p-6 border border-slate-200 shadow-sm hover:border-red-400 transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-red-50 text-red-600 text-xs font-bold px-3 py-1 rounded-full">৬ষ্ঠ অধ্যায়</span>
+                        <i class="fa-solid fa-database text-slate-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2">ডাটাবেজ ম্যানেজমেন্ট সিস্টেম</h3>
+                    <p class="text-slate-500 text-sm mb-3">DBMS, রিলেশনাল ডাটাবেজ, প্রাইমারি কী, এসকিউএল (SQL) কুয়েরি ও ডাটা সিকিউরিটি।</p>
+                    <span class="text-xs text-red-600 font-semibold">SQL কুয়েরি ও প্র্যাক্টিক্যাল ধারণা</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructor Section -->
+    <section id="instructor" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 rounded-3xl text-white p-8 sm:p-12 lg:p-16 relative overflow-hidden shadow-2xl">
+                <!-- Decorative background elements -->
+                <div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-red-600/20 blur-3xl"></div>
+                <div class="absolute -left-20 -top-20 w-80 h-80 rounded-full bg-red-500/10 blur-2xl"></div>
+
+                <div class="relative grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-4 text-center">
+                        <div class="inline-block p-2 rounded-2xl bg-gradient-to-tr from-red-600 to-slate-700 shadow-xl mb-4">
+                            <div class="w-48 h-48 sm:w-56 sm:h-56 rounded-xl bg-slate-800 flex flex-col items-center justify-center text-white border border-slate-700">
+                                <i class="fa-solid fa-chalkboard-user text-6xl text-red-500 mb-3"></i>
+                                <span class="font-bold text-lg text-slate-200">Momin Sir</span>
+                                <span class="text-xs text-red-400">ICT Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-8 space-y-4 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/20 text-red-400 text-xs font-semibold tracking-wide uppercase">
+                            শিক্ষক ও মেন্টর
+                        </div>
+                        <h2 class="text-3xl sm:text-4xl font-bold">মোখলেছুর রহমান মোমিন</h2>
+                        <p class="text-red-400 font-semibold text-lg font-en">BSc in CSE, IUBAT</p>
+                        
+                        <p class="text-slate-300 text-base leading-relaxed">
+                            "আইসিটি কোনো কঠিন বিষয় নয়, যদি তা মুখস্থ করার পরিবর্তে বাস্তব উদাহরণের মাধ্যমে ও প্র্যাক্টিক্যাল কোডিং দেখে শেখা যায়। আমার লক্ষ্য প্রতিটি ছাত্র-ছাত্রীকে প্রতিটি টপিক লজিক দিয়ে বুঝিয়ে আত্মবিশ্বাসী করে গড়ে তোলা যাতে তারা বোর্ড পরীক্ষায় স্বাচ্ছন্দ্যে A+ অর্জন করতে পারে।"
+                        </p>
+
+                        <div class="pt-4 flex flex-wrap gap-4 justify-center lg:justify-start">
+                            <div class="flex items-center gap-2 bg-slate-800/80 border border-slate-700 px-4 py-2 rounded-xl text-sm">
+                                <i class="fa-solid fa-check text-red-500"></i>
+                                <span>ব্যক্তিগত মেন্টরিং</span>
+                            </div>
+                            <div class="flex items-center gap-2 bg-slate-800/80 border border-slate-700 px-4 py-2 rounded-xl text-sm">
+                                <i class="fa-solid fa-check text-red-500"></i>
+                                <span>প্র্যাক্টিক্যাল ল্যাব সুবিধা</span>
+                            </div>
+                            <div class="flex items-center gap-2 bg-slate-800/80 border border-slate-700 px-4 py-2 rounded-xl text-sm">
+                                <i class="fa-solid fa-check text-red-500"></i>
+                                <span>পরীক্ষা পূর্ববর্তী স্পেশাল রিভিশন</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Form & Contact -->
+    <section id="contact" class="py-20 bg-slate-50 border-t border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-red-600 font-semibold text-sm tracking-wide uppercase">যোগাযোগ ও ভর্তি তথ্য</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-2">আপনার আসনটি আজই নিশ্চিত করুন</h2>
+                <p class="text-slate-600 mt-3">ব্যাচের সময়সূচি ও ফি সম্পর্কে জানতে ফর্ম পূরণ করুন অথবা সরাসরি ফোন বা হোয়াটসঅ্যাপে যোগাযোগ করুন।</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+                <!-- Contact Information -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                        <h3 class="text-xl font-bold text-slate-900 border-b pb-4">সরাসরি যোগাযোগের ঠিকানা</h3>
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-red-100 text-red-600 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">কোচিং সেন্টারের ঠিকানা</h4>
+                                <p class="text-slate-600 text-sm mt-1">জেনারেল রোড (বালুর মাঠ), সফিপুর, গাজীপুর</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-red-100 text-red-600 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">মোবাইল নাম্বার</h4>
+                                <p class="text-slate-600 text-sm mt-1">
+                                    <a href="tel:01568333884" class="text-red-600 font-bold font-en text-base hover:underline">01568333884</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">হোয়াটসঅ্যাপ</h4>
+                                <p class="text-slate-600 text-sm mt-1">
+                                    <a href="https://wa.me/8801568333884" target="_blank" class="text-emerald-600 font-bold font-en text-base hover:underline">01568333884</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Quick action box -->
+                        <div class="bg-gradient-to-r from-red-600 to-red-700 text-white p-5 rounded-xl text-center space-y-3">
+                            <p class="text-sm font-medium">কোনো প্রশ্ন থাকলে সরাসরি কথা বলতে চান?</p>
+                            <a href="tel:01568333884" class="inline-flex items-center gap-2 bg-white text-red-700 font-bold px-6 py-2.5 rounded-lg shadow hover:bg-slate-100 transition">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <span>এখনই কল করুন</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Registration / Inquiry Form -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">অনলাইনে ভর্তির তথ্য / মেসেজ পাঠান</h3>
+                        <p class="text-sm text-slate-500 mb-6">ফর্মটি সাবমিট করলে আপনার তথ্য সরাসরি স্যারের হোয়াটসঅ্যাপে পৌঁছে যাবে।</p>
+
+                        <form id="inquiryForm" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-semibold text-slate-700 mb-1">শিক্ষার্থীর নাম *</label>
+                                    <input type="text" id="studentName" required placeholder="আপনার নাম লিখুন" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none text-sm transition">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold text-slate-700 mb-1">মোবাইল নাম্বার *</label>
+                                    <input type="tel" id="studentPhone" required placeholder="০১xxxxxxxxx" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none text-sm transition">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-semibold text-slate-700 mb-1">কলেজের নাম</label>
+                                    <input type="text" id="collegeName" placeholder="কলেজের নাম" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none text-sm transition">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold text-slate-700 mb-1">শ্রেণী / ব্যাচ *</label>
+                                    <select id="classBatch" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none text-sm transition bg-white">
+                                        <option value="একাদশ শ্রেণী (HSC 2026/2027)">একাদশ শ্রেণী (HSC 2026/2027)</option>
+                                        <option value="দ্বাদশ শ্রেণী (HSC 2025/2026)">দ্বাদশ শ্রেণী (HSC 2025/2026)</option>
+                                        <option value="HSC পরীক্ষার্থী (স্পেশাল রিভিশন)">HSC পরীক্ষার্থী (স্পেশাল রিভিশন)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-700 mb-1">আপনার কোনো প্রশ্ন বা বার্তা</label>
+                                <textarea id="studentMsg" rows="3" placeholder="ব্যাচের সময়সূচি বা ফি সম্পর্কে জানতে চাইলে লিখুন..." class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none text-sm transition"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3.5 px-6 rounded-xl shadow-lg shadow-red-600/30 transition flex items-center justify-center gap-2">
+                                <i class="fa-brands fa-whatsapp text-lg"></i>
+                                <span>হোয়াটসঅ্যাপে সরাসরি সাবমিট করুন</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+                <div class="space-y-3">
+                    <a href="#" class="inline-flex items-center gap-3">
+                        <img src="assets/logo-icon.svg" alt="Hexa ICT কেয়ার" class="w-12 h-12 drop-shadow">
+                        <div>
+                            <span class="block font-bold text-xl text-white tracking-tight font-en">Hexa <span class="text-red-500 font-bangla">ICT কেয়ার</span></span>
+                            <span class="text-xs text-slate-400 block font-medium">HSC ICT Academic Care</span>
+                        </div>
+                    </a>
+                    <p class="text-sm text-slate-400">মোখলেছুর রহমান মোমিন (BSc in CSE, IUBAT)<br>জেনারেল রোড (বালুর মাঠ), সফিপুর, গাজীপুর | ফোন: 01568333884</p>
+                </div>
+                <div class="text-xs text-slate-500">
+                    &copy; <span id="currentYear"></span> Hexa ICT কেয়ার. সর্বস্বত্ব সংরক্ষিত।
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript logic -->
+    <script>
+        // Set dynamic year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Mobile menu toggle
+        const mobileBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // WhatsApp Form Submission handler
+        document.getElementById('inquiryForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('studentName').value;
+            const phone = document.getElementById('studentPhone').value;
+            const college = document.getElementById('collegeName').value || 'উল্লেখ নেই';
+            const batch = document.getElementById('classBatch').value;
+            const msg = document.getElementById('studentMsg').value || 'কোন বার্তা নেই';
+
+            const fullText = `*Hexa ICT কেয়ার - HSC ICT ব্যাচ ভর্তি আবেদন*\n\n` +
+                             `👤 নাম: ${name}\n` +
+                             `📞 ফোন: ${phone}\n` +
+                             `🏫 কলেজ: ${college}\n` +
+                             `📚 শ্রেণী/ব্যাচ: ${batch}\n` +
+                             `💬 বার্তা: ${msg}\n\n` +
+                             `আমি Hexa ICT কেয়ার-এ কোর্সে ভর্তি হতে আগ্রহী।`;
+
+            const encodedText = encodeURIComponent(fullText);
+            const whatsappUrl = `https://wa.me/8801568333884?text=${encodedText}`;
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+</body>
+</html>
